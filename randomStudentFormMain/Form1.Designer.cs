@@ -124,6 +124,7 @@
             this.addStudentsBox.Name = "addStudentsBox";
             this.addStudentsBox.Size = new System.Drawing.Size(100, 20);
             this.addStudentsBox.TabIndex = 8;
+            this.addStudentsBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.addStudentsBox_KeyDown);
             // 
             // openFileDialog1
             // 

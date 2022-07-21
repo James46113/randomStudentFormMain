@@ -288,5 +288,13 @@ namespace randomStudentFormMain
                 studentsBox.Items.RemoveAt(index);
             }
         }
+
+        private void addStudentsBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                AddStudent();
+            }
+        }
     }
 }
